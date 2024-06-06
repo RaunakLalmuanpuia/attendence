@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*.ct-series-a .ct-bar {*/
+/*    !* Colour of your bars *!*/
+/*    stroke: #3ab069;*/
+/*    !* The width of your bars *!*/
+/*    stroke-width: 10px;*/
+/*    !* Yes! Dashed bars! *!*/
+/*    stroke-dasharray: 20px;*/
+/*    !* Maybe you like round corners on your bars? *!*/
+/*}*/
+
+.text-time{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.home-title{
+    color: #1ED9E8;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text-title{
+    font-size: 26px;
+    font-weight: 600;
+    color: #444444;
+}
+.text-sm{
+    font-size: 12px;
+}
+.text-md{
+    font-size: 14px;
+}
+.text-lg{
+    font-size: 16px;
+}
+.text-xl{
+    font-size: 23px;
+}
+.brand-name{
+    font-size: 21px;
+    font-weight: 600;
+    font-family: Poppins, serif;
+}
+.sized-btn{
+    min-width: 140px;
+}
+
+.default-background{
+    background: #f7f7f7;
+}
+.shadow-default{
+    box-shadow: 0px 2px 8px #E6E6E6;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+.content{
+    padding: 8px;
+    background: white;
+    box-shadow: 0px 2px 8px #E6E6E6;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+@media (max-width: 599px) {
+    .container{
+        padding: 8px;
+    }
+    .container-sm{
+        max-width:450px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+@media (max-width: 1024px) {
+    .container {
+        max-width: 900px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .container-sm{
+        max-width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+@media (max-width:1439px) {
+    .container {
+        max-width: 1100px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .container-sm{
+        max-width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+
+@media (max-width: 3919px) {
+    .container {
+        max-width: 1250px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .container-sm{
+        max-width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+@media print {
+    .container{
+        position: absolute;
+        top: 12px;
+        width: 100%;
+    }
+}
+.q-tab__indicator{
+    height: 5px !important;
+    border-radius: 12px 12px 0px 0px;
+}
+.q-field__control {
+    /*height: 54px !important;*/
+    /*min-height: 42px !important;*/
+}
+.active-menu{
+    background: #dee0ef;
+    color: #191c51;
+    border-right-color: #191c51;
+    border-right-width: 4px;
+    border-right-style: solid;
+}
+
+

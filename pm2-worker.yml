@@ -1,0 +1,11 @@
+apps:
+  - name: fcm-queue
+    interpreter: php
+    script: artisan
+    exec_mode: fork
+    instances: 1
+    args:
+      - queue:work
+      - --tries=2
+      - --sleep=1
+      - --timeout=420
